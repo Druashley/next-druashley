@@ -1,0 +1,32 @@
+.nav {
+  padding: 2rem;
+  background-color: #303b4d;
+  color: #f4f4f4;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Playfair Display";
+}
+
+.nav ul {
+  display: flex;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  font-size: large;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 64rem;
+  align-items: center;
+  margin: 0 auto;
+}

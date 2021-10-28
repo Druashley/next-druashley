@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Permanent Marker", cursive;
+  src: url("/fonts/PermanentMarker-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display", cursive;
+  src: url("/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

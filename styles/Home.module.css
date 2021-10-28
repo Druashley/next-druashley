@@ -1,116 +1,55 @@
-.container {
-  padding: 0 2rem;
-}
-
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-image: linear-gradient(0deg, #ebca83 0%, #acdbdd 100%);
+  font-family: "Playfair Display";
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.contact {
+  min-height: 100vh;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  font-family: "Playfair Display";
+}
+.project {
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #ece1a3 0%, #96e1e6 100%);
+  font-family: "Playfair Display";
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.container h1 {
+  color: #374151;
+  font-size: 2rem;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
+.container h2 {
+  color: #4b5563;
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.container p {
+  color: #4b5563;
+  font-size: 1rem;
 }
 
-.grid {
+.container {
+  width: 100%;
+  max-width: 64rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 2rem 1.5rem;
+  }
 }
 
 .card {
   margin: 1rem;
   padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  max-width: 450px;
 }
